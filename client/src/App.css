@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  height: 35px;
+  background-color: rgb(202, 202, 202);
+  border-bottom: solid rgb(36, 36, 36) 1px;
+  margin: 0px;
+}
+
+.contactsHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactsScreen{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactsList{
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  min-width: 400px;
+  align-self: center;
+  gap: 3px;
+}
+
+.listItem{
+  width: 100%;
+  align-self: center;
+  list-style-type: none;
+  cursor: pointer;
+  border: solid 1px #9c9c9c;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.loadingDiv{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.infoHeader{
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.infoHeaderTitle{
+  margin: 0px;
+}
+
+.backButtonDiv{
+  cursor: pointer;
+  text-align: left;
+  margin-left: 15px;
+
+  display: flex;
+  width: fit-content;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.backButton{
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 4px;
+}
+
+.infoImageDiv{
+  margin-top: 15px;
+}
